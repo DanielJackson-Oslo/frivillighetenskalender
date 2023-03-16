@@ -7,4 +7,4 @@ Hostet på Github Pages, og endres ved å pushe til main.
 # Kontaktpersoner
 
 - Daniel Jacskon på daniel@digitalfrivillighet.no 
-- Magnus Eide på uviss e-post (rediger gjerne her Magnus...)
+- Magnus Eide på uviss e-post mageide@gmail.com
