@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Brown;
+    font-weight: 400;
+    src: url("./fonts/BrownLLWeb-Regular.woff") format("woff"),url("./fonts/BrownLLWeb-Regular.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: Brown;
+    font-weight: 100;
+    src: url("./fonts/BrownLLWeb-Light.woff") format("woff"),url("./fonts/BrownLLWeb-Light.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: Brown;
+    font-weight: 900;
+    src: url("./fonts/BrownLLWeb-Bold.woff") format("woff"),url("./fonts/BrownLLWeb-Bold.woff2") format("woff2")
+}
+
+:root {
+    --link-color: #db2e2e; /* #db2e2e is Frivilighet Norges link red */
+    --text-color: #030925; /* #030925 is Frivilighet Norges text black */
+    --background-dark: #871530; /* #871530 is Frivilighet Norges background red */
+}
+
+html {
+    font-family: Brown, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color:  var(--text-color);
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, main, footer .inner {
+    background: var(--background-white);
+    width: calc(100% - 2rem);
+    max-width: 1280px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* mobile */ 
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+header h1 {
+    font-size: 1.15rem;
+    font-weight: 900;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header h1 svg {
+    fill: var(--link-color);
+    margin-top: -2px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover img {
+    opacity: 0.7;
+}
+
+footer {
+    background: var(--background-dark);
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.85rem;
+}
+
+footer .formalia {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 100;
+}
+
+footer .inner {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    footer .inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
