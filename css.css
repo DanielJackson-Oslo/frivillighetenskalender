@@ -80,6 +80,12 @@ header h1 {
 header h1 svg {
     fill: var(--link-color);
     margin-top: -2px;
+    transform: rotate(-5deg);
+}
+
+header h1 span {
+    line-height: 1.1;
+    font-size: 0.85rem;
 }
 
 a {
