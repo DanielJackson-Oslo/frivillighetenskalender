@@ -8,9 +8,10 @@ Foreløpig ligger den ute på https://danieljackson-oslo.github.io/frivillighete
 
 Todo:
 
-- [ ] Sette opp domenet
-- [ ] Få flyttet repo til https://github.com/FrivillighetNorge-Org
+- [x] Sette opp domenet
+- [ ] Sette opp SSL
 - [ ] Få bestemt om vi vil ha siden i FN-rød eller kalender-oransje
+- [ ] Få flyttet repo til https://github.com/FrivillighetNorge-Org (mulig den skal flyttes et annet sted)
 - [x] Lage et enkelt skall som siden kan bo i
 - [x] Sette opp repo
 
