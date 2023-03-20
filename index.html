@@ -1,78 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frivillighetens arrangementskalender</title>
-    <link rel="icon" href="./favicon.ico">   
-    <link rel="stylesheet" href="css.css">
-</head>
-<body>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
     <header>
-
-        <h1>
-            <a href="/">
-                <svg width="32" height="32" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <path d="m37.5 10.418c0-2.3008-1.8672-4.168-4.168-4.168s-4.1641 1.8672-4.1641 4.168v2.1055c-2.0664 0.035156-3.9023 0.10937-5.5195 0.27734-3 0.3125-5.7148 0.98828-8.1328 2.6602-1.6484 1.1406-3.0781 2.5703-4.2188 4.2227-1.6758 2.4141-2.3516 5.1328-2.6641 8.1289-0.27344 2.6328-0.29687 5.8477-0.30078 9.6875v0.64062 0.4375 24.215c0 5.6445 0 10.297 0.49609 13.977 0.51953 3.8672 1.6523 7.2812 4.3867 10.016s6.1484 3.8672 10.016 4.3867c3.6797 0.49609 8.332 0.49609 13.977 0.49609h25.586c5.6445 0 10.297 0 13.977-0.49609 3.8672-0.51953 7.2812-1.6523 10.016-4.3867s3.8672-6.1484 4.3867-10.016c0.49609-3.6797 0.49609-8.332 0.49609-13.977v-24.215-0.37891-0.69922c-0.003907-3.8398-0.027344-7.0547-0.30078-9.6875-0.3125-2.9961-0.98828-5.7148-2.6641-8.1289-1.1406-1.6523-2.5703-3.082-4.2188-4.2227-2.418-1.6719-5.1328-2.3477-8.1328-2.6602-1.6172-0.16797-3.4531-0.24219-5.5195-0.27734v-2.1055c0-2.3008-1.8633-4.168-4.1641-4.168s-4.168 1.8672-4.168 4.168v2.082h-25zm45.832 27.082c-0.003906-3.9023-0.027343-6.6641-0.25391-8.8203-0.24219-2.3164-0.67578-3.4609-1.2266-4.2539-0.57031-0.82422-1.2852-1.5391-2.1094-2.1133-0.79297-0.54688-1.9375-0.98047-4.2539-1.2227-1.2969-0.13672-2.8086-0.19922-4.6562-0.23047v2.0586c0 2.3008-1.8633 4.1641-4.1641 4.1641s-4.168-1.8633-4.168-4.1641v-2.0859h-25v2.0859c0 2.3008-1.8672 4.1641-4.168 4.1641s-4.1641-1.8633-4.1641-4.1641v-2.0586c-1.8477 0.03125-3.3594 0.09375-4.6562 0.23047-2.3164 0.24219-3.4609 0.67578-4.2539 1.2227-0.82422 0.57422-1.5391 1.2891-2.1094 2.1133-0.55078 0.79297-0.98438 1.9375-1.2266 4.2539-0.22656 2.1562-0.25 4.918-0.25391 8.8203zm-66.664 8.332v16.668c0 6.0117 0.007812 10.098 0.41797 13.16 0.39844 2.9414 1.0938 4.3047 2.0234 5.2305 0.92578 0.92969 2.2891 1.625 5.2305 2.0234 3.0625 0.41016 7.1484 0.41797 13.16 0.41797h25c6.0117 0 10.098-0.007812 13.16-0.41797 2.9414-0.39844 4.3047-1.0938 5.2305-2.0234 0.92969-0.92578 1.625-2.2891 2.0234-5.2305 0.41016-3.0625 0.41797-7.1484 0.41797-13.16v-16.668z" fill-rule="evenodd"/>
-                </svg>
-                <span>
-                    Frivillighetens<br />
-                    arrangementskalender
-                </span>
-            </a>
-        </h1>
-        <nav>
-            <a href="#">+ Nytt arrangement</a>
-        </nav>
+      <h1>
+        <a href="/">
+          <svg
+            width="32"
+            height="32"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m37.5 10.418c0-2.3008-1.8672-4.168-4.168-4.168s-4.1641 1.8672-4.1641 4.168v2.1055c-2.0664 0.035156-3.9023 0.10937-5.5195 0.27734-3 0.3125-5.7148 0.98828-8.1328 2.6602-1.6484 1.1406-3.0781 2.5703-4.2188 4.2227-1.6758 2.4141-2.3516 5.1328-2.6641 8.1289-0.27344 2.6328-0.29687 5.8477-0.30078 9.6875v0.64062 0.4375 24.215c0 5.6445 0 10.297 0.49609 13.977 0.51953 3.8672 1.6523 7.2812 4.3867 10.016s6.1484 3.8672 10.016 4.3867c3.6797 0.49609 8.332 0.49609 13.977 0.49609h25.586c5.6445 0 10.297 0 13.977-0.49609 3.8672-0.51953 7.2812-1.6523 10.016-4.3867s3.8672-6.1484 4.3867-10.016c0.49609-3.6797 0.49609-8.332 0.49609-13.977v-24.215-0.37891-0.69922c-0.003907-3.8398-0.027344-7.0547-0.30078-9.6875-0.3125-2.9961-0.98828-5.7148-2.6641-8.1289-1.1406-1.6523-2.5703-3.082-4.2188-4.2227-2.418-1.6719-5.1328-2.3477-8.1328-2.6602-1.6172-0.16797-3.4531-0.24219-5.5195-0.27734v-2.1055c0-2.3008-1.8633-4.168-4.1641-4.168s-4.168 1.8672-4.168 4.168v2.082h-25zm45.832 27.082c-0.003906-3.9023-0.027343-6.6641-0.25391-8.8203-0.24219-2.3164-0.67578-3.4609-1.2266-4.2539-0.57031-0.82422-1.2852-1.5391-2.1094-2.1133-0.79297-0.54688-1.9375-0.98047-4.2539-1.2227-1.2969-0.13672-2.8086-0.19922-4.6562-0.23047v2.0586c0 2.3008-1.8633 4.1641-4.1641 4.1641s-4.168-1.8633-4.168-4.1641v-2.0859h-25v2.0859c0 2.3008-1.8672 4.1641-4.168 4.1641s-4.1641-1.8633-4.1641-4.1641v-2.0586c-1.8477 0.03125-3.3594 0.09375-4.6562 0.23047-2.3164 0.24219-3.4609 0.67578-4.2539 1.2227-0.82422 0.57422-1.5391 1.2891-2.1094 2.1133-0.55078 0.79297-0.98438 1.9375-1.2266 4.2539-0.22656 2.1562-0.25 4.918-0.25391 8.8203zm-66.664 8.332v16.668c0 6.0117 0.007812 10.098 0.41797 13.16 0.39844 2.9414 1.0938 4.3047 2.0234 5.2305 0.92578 0.92969 2.2891 1.625 5.2305 2.0234 3.0625 0.41016 7.1484 0.41797 13.16 0.41797h25c6.0117 0 10.098-0.007812 13.16-0.41797 2.9414-0.39844 4.3047-1.0938 5.2305-2.0234 0.92969-0.92578 1.625-2.2891 2.0234-5.2305 0.41016-3.0625 0.41797-7.1484 0.41797-13.16v-16.668z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span>
+            Frivillighetens<br />
+            arrangementskalender
+          </span>
+        </a>
+      </h1>
+      <nav>
+        <a href="#">+ Nytt arrangement</a>
+      </nav>
     </header>
     <main id="app">
       <h2>Kalender kommer her...</h2>
-      <p>Fungerer fortsatt endringer?</p>
     </main>
     <footer>
+      <div class="inner">
+        <nav class="links">
+          <ul>
+            <li class="current">
+              <a href="#"> Kalenderen </a>
+            </li>
+            <li>
+              <a href="#"> Nytt arrangement </a>
+            </li>
+            <li>
+              <a href="https://frivillighetnorge.no/"> Om siden </a>
+            </li>
+            <li>
+              <a href="https://frivillighetnorge.no/"> Personvernserklæring </a>
+            </li>
+          </ul>
+        </nav>
 
-        <div class="inner">
-            <nav class="links">
-                <ul>
-                    <li class="current">
-                        <a href="#">
-                            Kalenderen
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Nytt arrangement
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://frivillighetnorge.no/">
-                            Om siden
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://frivillighetnorge.no/">
-                            Personvernserklæring
-                        </a>
-                    </li>
+        <section class="about">
+          <p>
+            Kontaktperson er Siri Relling
+            <a href="mailto:sirir@frivillighetnorge.no"
+              >sirir@frivillighetnorge.no</a
+            >
+          </p>
 
-                </ul>
-            </nav>
-    
-            <section class="about">
-                <p>
-                    Kontaktperson er Siri Relling <a href="mailto:sirir@frivillighetnorge.no">sirir@frivillighetnorge.no</a>
-                </p>
-                
-                <p>
-                   Frivillighetens arrangementskalender drives av Frivillighet Norge. 
-                   Frivillighet Norge er et samarbeidsorgan for frivillige organisasjoner i Norge.
-                </p>
-                <a style="display: block" href="https://frivillighetnorge.no/">
-                    <img alt="Laget av Frivillighet Norge" src="./images/fn_logo_white.svg" width="130px" />
-                </a>
-            </section>
-        </div>
+          <p>
+            Frivillighetens arrangementskalender drives av Frivillighet Norge.
+            Frivillighet Norge er et samarbeidsorgan for frivillige
+            organisasjoner i Norge.
+          </p>
+          <a style="display: block" href="https://frivillighetnorge.no/">
+            <img
+              alt="Laget av Frivillighet Norge"
+              src="./images/fn_logo_white.svg"
+              width="130px"
+            />
+          </a>
+        </section>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
