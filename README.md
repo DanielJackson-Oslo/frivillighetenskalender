@@ -2,8 +2,7 @@ En veldig enkel HTML-side, for å ha et sted å plassere frivillighetenskalender
 
 Kan alltids utvides siden.
 
-Hostet på Github Pages, og endres ved å pushe til main. 
-
+Hostet på Github Pages, og endres ved å pushe til main.
 
 Todo:
 
