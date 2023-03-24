@@ -1,4 +1,4 @@
-En veldig enkel HTML-side, for å ha et sted å plassere frivillighetenskalender.no enn så lenge.
+En veldig enkel HTML-side, for å ha et sted å plassere [frivillighetenskalender.no](https://frivillighetenskalender.no) enn så lenge.
 
 Kan alltids utvides siden.
 
