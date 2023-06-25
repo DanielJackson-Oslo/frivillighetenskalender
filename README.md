@@ -18,5 +18,5 @@ Todo:
 
 # Kontaktpersoner
 
-- Daniel Jacskon på daniel@digitalfrivillighet.no
+- Daniel Jackson på daniel@digitalfrivillighet.no
 - Magnus Eide på mageide@gmail.com
